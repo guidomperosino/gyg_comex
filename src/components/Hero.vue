@@ -1,12 +1,12 @@
 <template>
   <header class="masthead">
     <div class="container">
-      <div class="masthead-subheading">{{ $t("welcomeMsg") }}</div>
-      <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+      <h2 class="masthead-subheading">{{ $t("heroH2") }}</h2>
+      <h1 class="masthead-heading text-uppercase">{{ $t("heroH1") }}</h1>
       <a
         class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-        href="#services"
-        >Tell Me More</a
+        :href="$t('contactoHero.link')"
+        >{{ $t("contactoHero.button") }}</a
       >
     </div>
   </header>

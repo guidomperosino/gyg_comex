@@ -3,8 +3,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top"
-        ><img :src='navbarCustom.imgSrc' :alt='navbarCustom.imgAlt'
-      />{{ navbarCustom.title }}</a>
+        ><img :src="$t('logoNavBar')" :alt='navbarCustom.imgAlt'
+      />{{ $t('marca') }}</a>
       <button
         class="navbar-toggler navbar-toggler-right"
         type="button"
@@ -19,7 +19,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item" v-for="(section, key) in navbarJSON" :key="key">
+          <li class="nav-item" v-for="(section, key) in $t('secciones')" :key="key">
             <a class="nav-link js-scroll-trigger" :href="section.link">{{ section.title }}</a>
           </li>
         </ul>
@@ -50,9 +50,6 @@ export default {
       },
     ],
     navbarCustom: {
-      imgSrc: 'assets/img/logo.png',
-      imgAlt: 'logo',
-      title:"GT Comex"
     },
   }),
 };
