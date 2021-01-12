@@ -21,14 +21,14 @@ const messages = {
       },
       {
         title: "Contacto",
-        link: "#contacto",
+        link: "#contact",
       },
     ],
     heroH2: "Hero H2",
     heroH1: "Hero H1",
     contactoHero: {
       button: "Contacto",
-      link: "#contacto",
+      link: "#contact",
     },
     solutionsTitle: "¿Qué hacemos?",
     solutionsBajada:
@@ -55,7 +55,7 @@ const messages = {
     ],
     contactoSolution: {
       button: "Contacto",
-      link: "#contacto",
+      link: "#contact",
     },
     portfolioTitle: "Portfolio",
     portfolioBajada: "Portfolio Bajada",
@@ -72,7 +72,7 @@ const messages = {
     ],
     contactoPortfolio: {
       button: "Contacto",
-      link: "#contacto",
+      link: "#contact",
     },
     servicesTitle: "Servicios",
     servicesBajada: "Servicios Bajada",
@@ -90,7 +90,7 @@ const messages = {
         ],
         imgSrc: "assets/img/HeroNosotros.jpg",
         imgAlt: "Imagen Prueba",
-        link: "#contacto",
+        link: "#contact",
         buttonText: "Consultar",
       },
       {
@@ -106,7 +106,7 @@ const messages = {
         ],
         imgSrc: "assets/img/HeroNosotros.jpg",
         imgAlt: "Imagen Prueba",
-        link: "#contacto",
+        link: "#contact",
         buttonText: "Consultar",
       },
     ],

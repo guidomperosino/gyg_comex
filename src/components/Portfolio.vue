@@ -17,13 +17,16 @@
           :key="key"
         >
           <div class="portfolio-item">
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">{{ portfolio.title }}</div>
+            </div>
             <a
               class="portfolio-link"
               data-toggle="modal"
               :href="portfolio.modalLink"
             >
               <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
+                <div class="portfolio-hover-content p-1">
                   <div class="portfolio-caption-subheading text-muted">
                     {{ portfolio.body }}
                   </div>
@@ -35,9 +38,6 @@
                 :alt="portfolio.imgAlt"
               />
             </a>
-            <div class="portfolio-caption">
-              <div class="portfolio-caption-heading">{{ portfolio.title }}</div>
-            </div>
           </div>
         </div>
       </div>
