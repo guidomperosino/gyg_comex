@@ -110,6 +110,10 @@ const messages = {
         buttonText: "Consultar",
       },
     ],
+    whatsapp: {
+      link:
+        "https://wa.me/5491161161060/?text=Hola%2C%20estoy%20interesado%20en%20consultar%20sobre%20los%20servicios%20ofrecidos☺%EF%B8%8F",
+    },
   },
   en: {},
 };

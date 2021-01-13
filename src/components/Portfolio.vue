@@ -33,7 +33,7 @@
                 </div>
               </div>
               <img
-                class="img-fluid"
+                class="img-fluid my-4"
                 :src="portfolio.imgSrc"
                 :alt="portfolio.imgAlt"
               />

@@ -8,6 +8,7 @@
     <Clients></Clients>
     <ContactForm></ContactForm>
     <Footer></Footer>
+    <WhatsappButton></WhatsappButton>
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import Services from "./components/Services";
 import Clients from "./components/Clients";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
+import WhatsappButton from "./components/WhatsappButton";
 
 
 //import i18n from '@/plugins/i18n';
@@ -35,6 +37,7 @@ export default {
     Clients,
     ContactForm,
     Footer,
+    WhatsappButton,
   },
 };
 </script>
