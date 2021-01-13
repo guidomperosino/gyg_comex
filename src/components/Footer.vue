@@ -1,40 +1,40 @@
 <template>
-  <footer class="footer py-4">
+  <footer class="footer py-4 px-5">
     <div class="container">
       <div class="row align-items-center mb-3">
-        <div class="col-lg-4" id="logo_pie">
-          <img src="img/LOGO_NEGRO.png" />
+        <div class="col-lg-4 my-5" id="logo_pie">
+          <img class="footer-brand" :src="$t('footerItems.logo')" />
         </div>
         <div id="menu" class="col-lg-4 aside">
           <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="clientes.html">Clientes</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
+            <li v-for="(section, key) in $t('secciones')" :key="key">
+              <a :href="section.link">{{ section.title }}</a>
+            </li>
           </ul>
         </div>
         <div class="col-lg-4" id="datos">
-          <div>
+          <div class="mt-4">
             <i class="fas fa-thumbtack"></i>
-            <div>
-              <p>Ubicación</p>
-              <p>Moreno 584, CABA</p>
-            </div>
+
+            <p class="mb-0">Ubicación</p>
+            <a :href="$t('footerItems.adress.adressLink')" target="_blank">
+              {{ $t("footerItems.adress.adress") }}
+            </a>
           </div>
-          <div>
+          <div class="mt-4">
             <i class="fas fa-phone-alt"></i>
-            <div>
-              <p>Teléfono</p>
-              <p>11-6543-9877</p>
-            </div>
+            <p class="mb-0">Teléfono</p>
+            <a :href="$t('footerItems.adress.phoneLink')" target="_blank">
+              {{ $t("footerItems.adress.phone") }}
+            </a>
           </div>
-          <div>
+          <div class="mt-4">
             <i class="far fa-envelope"></i>
-            <div>
-              <p>Email</p>
-              <p>info@gyginternacional.com</p>
-            </div>
+
+            <p class="mb-0">Email</p>
+            <a :href="$t('footerItems.adress.mailLink')" target="_blank">
+              {{ $t("footerItems.adress.mail") }}
+            </a>
           </div>
         </div>
       </div>
@@ -69,4 +69,27 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.footer-brand {
+  height: 4.5rem;
+}
+footer #menu {
+  padding: 0 4em;
+}
+
+footer #menu ul {
+  text-transform: uppercase;
+  list-style: none;
+  padding: 0;
+}
+
+footer #menu li {
+  padding: 6px 0;
+}
+
+footer #menu li a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+</style>

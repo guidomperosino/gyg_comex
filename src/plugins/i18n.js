@@ -114,13 +114,25 @@ const messages = {
       link:
         "https://wa.me/5491161161060/?text=Hola%2C%20estoy%20interesado%20en%20consultar%20sobre%20los%20servicios%20ofrecidos☺%EF%B8%8F",
     },
+    footerItems: {
+      adress: {
+        phone: "11-6543-9877",
+        phoneLink:
+          "https://wa.me/5491161161060/?text=Hola%2C%20estoy%20interesado%20en%20consultar%20sobre%20los%20servicios%20ofrecidos☺%EF%B8%8F",
+        adress: "Moreno 584, CABA",
+        adressLink: "https://goo.gl/maps/VpTEWtXHULw8Yoxy9",
+        mail: "info@gyginternacional.com",
+        mailLink: "mailto:info@gyginternacional.com",
+      },
+      logo: "assets/img/_logo.png",
+    },
   },
   en: {},
 };
 
 const i18n = new VueI18n({
   locale: "es", // set locale
-  fallbackLocale: "en", // set fallback locale
+  fallbackLocale: "es", // set fallback locale
   messages, // set locale messages
 });
 

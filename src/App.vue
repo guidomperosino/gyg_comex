@@ -23,9 +23,6 @@ import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import WhatsappButton from "./components/WhatsappButton";
 
-
-//import i18n from '@/plugins/i18n';
-
 export default {
   name: "App",
   components: {
