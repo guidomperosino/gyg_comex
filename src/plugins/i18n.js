@@ -125,6 +125,8 @@ const messages = {
         mailLink: "mailto:info@gyginternacional.com",
       },
       logo: "assets/img/_logo.png",
+      copyright: "GYG INTERNACIONAL 2021",
+      pp: "Politicas de Privacidad",
     },
   },
   en: {},

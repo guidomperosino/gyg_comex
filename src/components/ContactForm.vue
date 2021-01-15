@@ -7,7 +7,7 @@
           Lorem ipsum dolor sit amet consectetur.
         </h3>
       </div>
-      <form id="contactForm" name="sentMessage" novalidate="novalidate">
+      <form id="contactForm" name="sentMessage" novalidate="novalidate" netlify>
         <div class="row align-items-stretch mb-5">
           <div class="col-md-6">
             <div class="form-group">
