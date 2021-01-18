@@ -1,7 +1,7 @@
 <template>
   <!-- Portfolio Grid-->
-  <section class="page-section" id="portfolio">
-    <div class="container">
+  <section class="page-section bg-light" id="portfolio">
+    <div class="container" id="asesoramiento">
       <div class="text-center">
         <h2 class="section-heading text-uppercase">
           {{ $t("portfolioTitle") }}

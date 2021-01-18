@@ -4,8 +4,8 @@
     <Hero></Hero>
     <Solutions></Solutions>
     <Services></Services>
-    <Portfolio></Portfolio>
     <Clients></Clients>
+    <Portfolio></Portfolio>
     <ContactForm></ContactForm>
     <Footer></Footer>
     <WhatsappButton></WhatsappButton>

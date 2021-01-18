@@ -24,10 +24,11 @@ const messages = {
         link: "#contact",
       },
     ],
-    heroH2: "Hero H2",
-    heroH1: "Hero H1",
+    heroH1: "Servicio integral de comercio exterior",
+    heroH2:
+      "con el objetivo de mejorar los procesos de todos nuestros clientes",
     contactoHero: {
-      button: "Contacto",
+      button: "Consultanos",
       link: "#contact",
     },
     solutionsTitle: "¿Qué hacemos?",
@@ -57,8 +58,8 @@ const messages = {
       button: "Contacto",
       link: "#contact",
     },
-    portfolioTitle: "Portfolio",
-    portfolioBajada: "Portfolio Bajada",
+    portfolioTitle: "Asesoramiento",
+    portfolioBajada: "Asesoramiento Bajada",
     portfolioItems: [
       {
         icon: "fa-shopping-cart",
@@ -75,7 +76,8 @@ const messages = {
       link: "#contact",
     },
     servicesTitle: "Servicios",
-    servicesBajada: "Servicios Bajada",
+    servicesBajada:
+      "Con un equipo multidisciplinario ofrecemos servicios integrales destinados a pequeñas y medianas empresas que buscan agilizar y mejorar sus procesos de comercio exterior para exportación e importación. ",
     servicesItems: [
       {
         id: "servicio1",
@@ -113,6 +115,11 @@ const messages = {
     whatsapp: {
       link:
         "https://wa.me/5491161161060/?text=Hola%2C%20estoy%20interesado%20en%20consultar%20sobre%20los%20servicios%20ofrecidos☺%EF%B8%8F",
+    },
+    contactFormItems: {
+      contactTitle: "Contacto",
+      contactBajada: " Dejanos tu consulta y nos comunicaremos",
+      contactButton: "Enviar",
     },
     footerItems: {
       adress: {

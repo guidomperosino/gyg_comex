@@ -1,12 +1,12 @@
 <template>
-  <div class="py-5">
+  <div class="py-5 ">
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="col-md-3 col-sm-6 my-3">
           <a href="#!"
             ><img
               class="img-fluid d-block mx-auto"
-              src="assets/img/logos/envato.jpg"
+              src="assets/img/logo-intek.png"
               alt=""
           /></a>
         </div>
@@ -14,23 +14,7 @@
           <a href="#!"
             ><img
               class="img-fluid d-block mx-auto"
-              src="assets/img/logos/designmodo.jpg"
-              alt=""
-          /></a>
-        </div>
-        <div class="col-md-3 col-sm-6 my-3">
-          <a href="#!"
-            ><img
-              class="img-fluid d-block mx-auto"
-              src="assets/img/logos/themeforest.jpg"
-              alt=""
-          /></a>
-        </div>
-        <div class="col-md-3 col-sm-6 my-3">
-          <a href="#!"
-            ><img
-              class="img-fluid d-block mx-auto"
-              src="assets/img/logos/creative-market.jpg"
+              src="assets/img/logo-patagonia.png"
               alt=""
           /></a>
         </div>

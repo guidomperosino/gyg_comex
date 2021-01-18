@@ -42,7 +42,7 @@ $(function() {
             )
             .append("</button>");
           $("#success > .alert-success").append(
-            "<strong>Your message has been sent. </strong>"
+            "<strong>Su mensaje fue enviado. </strong>"
           );
           $("#success > .alert-success").append("</div>");
           //clear all fields
@@ -58,9 +58,9 @@ $(function() {
             .append("</button>");
           $("#success > .alert-danger").append(
             $("<strong>").text(
-              "Sorry " +
+              "Disculpas " +
                 firstName +
-                ", it seems that my mail server is not responding. Please try again later!"
+                ", el servidor no responde. Por favor, pruebe nuevamente más tarde!"
             )
           );
           $("#success > .alert-danger").append("</div>");

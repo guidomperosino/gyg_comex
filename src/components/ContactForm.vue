@@ -2,12 +2,14 @@
   <section class="page-section" id="contact">
     <div class="container">
       <div class="text-center">
-        <h2 class="section-heading text-uppercase">Contact Us</h2>
+        <h2 class="section-heading text-uppercase">
+          {{ $t("contactFormItems.contactTitle") }}
+        </h2>
         <h3 class="section-subheading text-muted">
-          Lorem ipsum dolor sit amet consectetur.
+          {{ $t("contactFormItems.contactBajada") }}
         </h3>
       </div>
-      <form id="contactForm" name="sentMessage" novalidate="novalidate" netlify>
+      <form id="contactForm" name="sentMessage" novalidate="novalidate">
         <div class="row align-items-stretch mb-5">
           <div class="col-md-6">
             <div class="form-group">
@@ -15,9 +17,9 @@
                 class="form-control"
                 id="name"
                 type="text"
-                placeholder="Your Name *"
+                placeholder="Nombre *"
                 required="required"
-                data-validation-required-message="Please enter your name."
+                data-validation-required-message="Por favor, ingrese su nombre."
               />
               <p class="help-block text-danger"></p>
             </div>
@@ -26,9 +28,9 @@
                 class="form-control"
                 id="email"
                 type="email"
-                placeholder="Your Email *"
+                placeholder="Email *"
                 required="required"
-                data-validation-required-message="Please enter your email address."
+                data-validation-required-message="Por favor, ingrese su email."
               />
               <p class="help-block text-danger"></p>
             </div>
@@ -37,9 +39,9 @@
                 class="form-control"
                 id="phone"
                 type="tel"
-                placeholder="Your Phone *"
+                placeholder="Teléfono *"
                 required="required"
-                data-validation-required-message="Please enter your phone number."
+                data-validation-required-message="Por favor, ingrese su teléfono."
               />
               <p class="help-block text-danger"></p>
             </div>
@@ -49,9 +51,9 @@
               <textarea
                 class="form-control"
                 id="message"
-                placeholder="Your Message *"
+                placeholder="Su Mensaje *"
                 required="required"
-                data-validation-required-message="Please enter a message."
+                data-validation-required-message="Por favor, ingrese su mensaje."
               ></textarea>
               <p class="help-block text-danger"></p>
             </div>
@@ -64,7 +66,7 @@
             id="sendMessageButton"
             type="submit"
           >
-            Send Message
+            {{ $t("contactFormItems.contactButton") }}
           </button>
         </div>
       </form>

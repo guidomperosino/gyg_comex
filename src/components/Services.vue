@@ -37,12 +37,13 @@
               <li v-for="(listItem,key) in service.bodyList" :key="key">{{listItem}}</li>
             </ul>
             </p>
+          <div class="d-flex justify-content-center">
           <a
             class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
             :href="service.link"
             >{{service.buttonText}}</a
           >
-        
+        </div>
         </div>
       </div>
     </div>
