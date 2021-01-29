@@ -20,20 +20,18 @@
             <div class="portfolio-caption">
               <div class="portfolio-caption-heading">{{ portfolio.title }}</div>
             </div>
-            <a
-              class="portfolio-link"
-              data-toggle="modal"
-              :href="portfolio.modalLink"
-            >
+            <a class="portfolio-link">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content p-1">
-                  <div class="portfolio-caption-subheading text-muted">
+                  <div
+                    class="portfolio-caption-subheading text-muted text-center"
+                  >
                     {{ portfolio.body }}
                   </div>
                 </div>
               </div>
               <img
-                class="img-fluid my-4"
+                class="img-fluid"
                 :src="portfolio.imgSrc"
                 :alt="portfolio.imgAlt"
               />

@@ -10548,7 +10548,7 @@ header.masthead {
   text-align: center;
   color: #fff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
-    url("../img/Hero.jpg");
+    url("../img/heroOption3.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10606,7 +10606,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(228, 197, 187, 0.9);
   align-items: center;
   justify-content: center;
   opacity: 0;

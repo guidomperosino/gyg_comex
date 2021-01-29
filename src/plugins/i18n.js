@@ -20,20 +20,24 @@ const messages = {
         link: "#asesoramiento",
       },
       {
+        title: "Clientes",
+        link: "#clients",
+      },
+      {
         title: "Contacto",
         link: "#contact",
       },
     ],
     heroH1: "Servicio integral de comercio exterior",
     heroH2:
-      "con el objetivo de mejorar los procesos de todos nuestros clientes",
+      "Con el objetivo de optimizar los procesos de importación y exportación de todos nuestros clientes.",
     contactoHero: {
       button: "Consultanos",
       link: "#contact",
     },
     solutionsTitle: "¿Qué hacemos?",
     solutionsBajada:
-      "Brindamos asesoramiento integral brindando a nuestros clientes las herramientas necesarias para realizar su trámite de importación o exportación, enfocados en optimizar tiempos y reducir costos.",
+      "Brindamos asesoramiento integral de comercio exterior y gestionamos las operaciones aduaneras de importación y exportación. Enfocados en las necesidades particulares de cada cliente, con el fin de optimizar tiempos y reducir costos.",
     solutionsItems: [
       {
         icon: "fa-calculator",
@@ -51,7 +55,7 @@ const messages = {
         icon: "fa-users-cog",
         title: "Asesoramiento integral",
         body:
-          "Ofrecemos un servicio personalizado y basado en la necesidad de cada cliente, enfocados en estar en cada paso desde el inicio hasta la finalización del trámite.",
+          "Ofrecemos un servicio personalizado, asesorando a nuestros clientes, enfocados en estar en cada paso desde el inicio hasta la finalización del trámite.",
       },
     ],
     contactoSolution: {
@@ -62,13 +66,25 @@ const messages = {
     portfolioBajada: "Asesoramiento Bajada",
     portfolioItems: [
       {
-        icon: "fa-shopping-cart",
-        title: "Trámite 1",
+        title: "Consultoría en comercio exterior",
         body:
           "Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
-        imgSrc: "assets/img/como.jpg",
-        imgAlt: "Imagen Prueba",
-        modalLink: "#portfolioModal1",
+        imgSrc: "assets/img/Asesoramiento1.jpeg",
+        imgAlt: "Asesoramiento imagen",
+      },
+      {
+        title: "Gestión aduanera",
+        body:
+          "Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+        imgSrc: "assets/img/Asesoramiento2.jpeg",
+        imgAlt: "Asesoramiento imagen",
+      },
+      {
+        title: "Licencias no automáticas de importación (LNA)",
+        body:
+          "Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+        imgSrc: "assets/img/Asesoramiento3.jpg",
+        imgAlt: "Asesoramiento imagen",
       },
     ],
     contactoPortfolio: {
@@ -82,34 +98,53 @@ const messages = {
       {
         id: "servicio1",
         idLink: "#servicio1",
-        title: "Servicios de despachante de aduanas",
+        title: "Servicios Despachante de Aduana",
         bodyList: [
-          "Licencia SIMI y validación.",
-          "Trámite de presentación de licencia no automática.",
-          "Despacho de importación OM1993.",
-          "Tramitación y gestión de la documentación ante aduana.",
-          "Transporte de mercadería / Logística de aduana a depósito del importador.",
+          "Tramitación del Formulario SIMI.",
+          "Solicitud de LNA (Licencia No Automatica de Importación).",
+          "Clasificación de Mercaderias.",
+          "Importación y Exportación (Oficialización de los permisos).",
+          "Gestión de la documentación ante Aduana.",
+          "Logística del transporte de la Mercaderia desde Aduana hasta la Puerta del cliente.",
+          "DJCP (Productos Textiles)",
         ],
-        imgSrc: "assets/img/HeroNosotros.jpg",
-        imgAlt: "Imagen Prueba",
+        imgSrc: "assets/img/Servicios1.jpg",
+        imgAlt: "Imagen",
         link: "#contact",
         buttonText: "Consultar",
       },
       {
         id: "servicio2",
         idLink: "#servicio2",
-        title: "Asesoramiento integral en comercio exterior",
+        title: "Servicios Asesoramiento Integral de Comercio Exterior",
         bodyList: [
-          "Clasificación de mercadería.",
-          "Alta de importador o exportador ante AFIP.",
-          "Logística internacional.",
-          "Resoluciones aduaneras y de comercio exterior.",
-          "Resolución de importaciones o exportaciones en conflicto.",
+          "Alta de Importador / Exportador ante AFIP.",
+          "Consulta de Estados de cada Operación en Página AFIP. ",
+          "Logística Internacional.",
+          "Interpretación de las Normas y Resoluciones Aduaneras y de Comercio Exterior.",
+          "Analisis de Costos.",
         ],
-        imgSrc: "assets/img/HeroNosotros.jpg",
-        imgAlt: "Imagen Prueba",
+        imgSrc: "assets/img/Servicios2.jpg",
+        imgAlt: "Imagen",
         link: "#contact",
         buttonText: "Consultar",
+      },
+    ],
+    clients: [
+      {
+        logo: "assets/img/logo-patagonia.png",
+        caption: "Patagonia CNC",
+        link: "https://patagoniacnc.com/",
+      },
+      {
+        logo: "assets/img/logo-intek.png",
+        caption: "Intek SA",
+        link: "http://www.intektoys.com/ar/",
+      },
+      {
+        logo: "assets/img/logo-martorelli.png",
+        caption: "Martorelli SA",
+        link: "https://www.martorelli.com.ar/",
       },
     ],
     whatsapp: {

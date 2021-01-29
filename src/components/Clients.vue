@@ -1,21 +1,17 @@
 <template>
-  <div class="py-5 ">
+  <div class="py-5" id="clients">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-3 col-sm-6 my-3">
-          <a href="#!"
+      <div class="row justify-content-center align-items-center">
+        <div
+          class="col-md-3 col-sm-6 my-3"
+          v-for="(client, key) in $t('clients')"
+          :key="key"
+        >
+          <a :href="client.link" target="_blank"
             ><img
               class="img-fluid d-block mx-auto"
-              src="assets/img/logo-intek.png"
-              alt=""
-          /></a>
-        </div>
-        <div class="col-md-3 col-sm-6 my-3">
-          <a href="#!"
-            ><img
-              class="img-fluid d-block mx-auto"
-              src="assets/img/logo-patagonia.png"
-              alt=""
+              :src="client.logo"
+              :alt="client.caption"
           /></a>
         </div>
       </div>

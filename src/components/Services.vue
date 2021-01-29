@@ -6,7 +6,7 @@
         <h2 class="section-heading text-uppercase">
           {{ $t("servicesTitle") }}
         </h2>
-        <h3 class="section-subheading text-muted">
+        <h3 class="section-subheading text-muted mx-5">
           {{ $t("servicesBajada") }}
         </h3>
       </div>
