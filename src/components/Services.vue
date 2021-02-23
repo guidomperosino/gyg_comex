@@ -14,6 +14,7 @@
         class="row text-left justify-content-center align-items-center mb-5"
         v-for="(service, key) in $t('servicesItems')"
         :key="key"
+        :id="service.id2"
       >
         <div class="col-md-6 order-2">
             <a
@@ -29,7 +30,7 @@
             </a>
                    
         </div>
-        <span :id="service.id"></span>
+        <span :id="service.id1"></span>
         <div class="col-md-6" :class="{'order-3': key % 2 === 0,'order-1': key % 2 !== 0}">
           <h4 class="my-3">{{service.title}}</h4>
           <p class="text-muted">

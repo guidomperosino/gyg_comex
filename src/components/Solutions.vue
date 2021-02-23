@@ -23,7 +23,7 @@
           <p class="text-muted">{{ solution.body }}</p>
           <a
             class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-            :href="$t('contactoSolution.link')"
+            :href="solution.buttonLink"
             >{{ $t("contactoSolution.button") }}</a
           >
         </div>

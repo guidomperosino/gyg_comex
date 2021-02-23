@@ -1,9 +1,17 @@
 <template>
-  <div class="py-5" id="clients">
+  <div class="page-section py-5" id="clients">
     <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">
+          {{ $t("clientsTitle") }}
+        </h2>
+        <h3 class="section-subheading text-muted">
+          {{ $t("clientsBajada") }}
+        </h3>
+      </div>
       <div class="row justify-content-center align-items-center">
         <div
-          class="col-md-3 col-sm-6 my-3"
+          class="col-md-4 col-sm-6 my-3"
           v-for="(client, key) in $t('clients')"
           :key="key"
         >

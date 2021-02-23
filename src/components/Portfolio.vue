@@ -12,7 +12,7 @@
       </div>
       <div class="row justify-content-center">
         <div
-          class="col-lg-4 col-sm-6 mb-4"
+          class="col-lg-3 col-sm-6 mb-4"
           v-for="(portfolio, key) in $t('portfolioItems')"
           :key="key"
         >
