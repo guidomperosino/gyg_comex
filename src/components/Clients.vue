@@ -11,7 +11,7 @@
       </div>
       <div class="row justify-content-center align-items-center">
         <div
-          class="col-md-4 col-sm-6 my-3"
+          class="col-lg-2 col-md-3 col-sm-4 col-6 my-3"
           v-for="(client, key) in $t('clients')"
           :key="key"
         >

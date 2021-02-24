@@ -29,8 +29,7 @@ const messages = {
       },
     ],
     heroH1: "Servicio integral de comercio exterior",
-    heroH2:
-      "Con el objetivo de optimizar los procesos de importación y exportación de todos nuestros clientes.",
+    heroH2: "Despachante de Aduana, Asesoramiento, Logística.",
     contactoHero: {
       button: "Consultanos",
       link: "#contact",
@@ -41,7 +40,7 @@ const messages = {
     solutionsItems: [
       {
         icon: "fa-business-time",
-        title: "Servicios de despachante de aduanas",
+        title: "Despachante de aduanas",
         body:
           "Como agente auxiliar del comercio y del servicio aduanero, nos encargamos de clasificar su mercadería e interpretar las distintas normas para gestionar sus operaciones de la mejor manera.",
         buttonLink: "#servicio1",
@@ -72,14 +71,14 @@ const messages = {
         title: "Consultoría en comercio exterior",
         body:
           "Buscamos agilidad en toda la gestión del trámite y gracias al constante seguimiento logramos acortar los tiempos y brindar respuestas inmediatas. Nos destacamos por ofrecer asesoramiento personalizado y manejar tiempos cortos de gestión.",
-        imgSrc: "assets/img/Asesoramiento1.jpeg",
+        imgSrc: "assets/img/Asesoramiento1.jpg",
         imgAlt: "Asesoramiento imagen",
       },
       {
         title: "Gestión aduanera",
         body:
           "Ponemos a disposición, en base a nuestros 20 años de experiencia en el rubro, todas las herramientas necesarias para optimizar su trámite de importación y exportación buscando el menor costo posible.",
-        imgSrc: "assets/img/Asesoramiento2.jpeg",
+        imgSrc: "assets/img/Asesoramiento2.jpg",
         imgAlt: "Asesoramiento imagen",
       },
       {
@@ -90,11 +89,10 @@ const messages = {
         imgAlt: "Asesoramiento imagen",
       },
       {
-        title:
-          "Análisis de restricciones para la importación o exportación de la mercadería",
+        title: "Análisis de resoluciones COMEX",
         body:
           "Le aseguramos a nuestros clientes que podrán nacionalizar su mercadería asesorandolos en todos los pasos. Categorizamos y clasificamos toda su mercadería bajo nomenclatura de sistema armonizado.",
-        imgSrc: "assets/img/Asesoramiento3.jpg",
+        imgSrc: "assets/img/Asesoramiento4.jpg",
         imgAlt: "Asesoramiento imagen",
       },
     ],
@@ -187,6 +185,11 @@ const messages = {
         caption: "Codial",
         link: "http://www.codial.net/",
       },
+      {
+        logo: "assets/img/logo-btec.png",
+        caption: "Btec",
+        link: "http://btec.com.ar/",
+      },
     ],
     whatsapp: {
       link:
@@ -199,10 +202,10 @@ const messages = {
     },
     footerItems: {
       adress: {
-        phone: "11-6543-9877",
+        phone: "4331-1305",
         phoneLink:
           "https://wa.me/5491161161060/?text=Hola%2C%20estoy%20interesado%20en%20consultar%20sobre%20los%20servicios%20ofrecidos☺%EF%B8%8F",
-        adress: "Moreno 584, CABA",
+        adress: "Moreno 584 4°B, CABA",
         adressLink: "https://goo.gl/maps/VpTEWtXHULw8Yoxy9",
         mail: "info@gyginternacional.com",
         mailLink: "mailto:info@gyginternacional.com",

@@ -64,6 +64,7 @@ export default {
 <style scoped>
 .footer-brand {
   height: 4.5rem;
+  max-width: 100%;
 }
 footer #menu {
   padding: 0 4em;

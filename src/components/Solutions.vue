@@ -11,7 +11,7 @@
       </div>
       <div class="row text-center">
         <div
-          class="col-md-4 pb-5"
+          class="col-md-4 pb-5 solutionContainer"
           v-for="(solution, key) in $t('solutionsItems')"
           :key="key"
         >
@@ -39,6 +39,14 @@ export default {
   }),
 };
 </script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.solutionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.solutionContainer a {
+  margin-top: auto;
+}
+</style>
