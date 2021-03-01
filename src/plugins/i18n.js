@@ -43,14 +43,14 @@ const messages = {
         title: "Despachante de aduanas",
         body:
           "Como agente auxiliar del comercio y del servicio aduanero, nos encargamos de clasificar su mercadería e interpretar las distintas normas para gestionar sus operaciones de la mejor manera.",
-        buttonLink: "#servicio1",
+        buttonLink: "#servicios",
       },
       {
         icon: "fa-users-cog",
         title: "Asesoramiento integral",
         body:
           "Ofrecemos un servicio personalizado, asesorando a nuestros clientes, enfocados en estar en cada paso desde el inicio hasta la finalización del trámite.",
-        buttonLink: "#servicio2",
+        buttonLink: "#servicios",
       },
       {
         icon: "fa-calculator",
@@ -189,6 +189,21 @@ const messages = {
         logo: "assets/img/logo-btec.png",
         caption: "Btec",
         link: "http://btec.com.ar/",
+      },
+      {
+        logo: "assets/img/logo-puntoextremo.png",
+        caption: "Punto Extremo",
+        link: "https://puntoextremo.com.ar/main/",
+      },
+      {
+        logo: "assets/img/logo-gp23.png",
+        caption: "GP23",
+        link: "",
+      },
+      {
+        logo: "assets/img/logo-kista.png",
+        caption: "Kista",
+        link: "",
       },
     ],
     whatsapp: {
