@@ -9,6 +9,8 @@
     <ContactForm></ContactForm>
     <Footer></Footer>
     <WhatsappButton></WhatsappButton>
+    <CookieConsent></CookieConsent>
+    <Modal></Modal>
   </div>
 </template>
 
@@ -22,6 +24,8 @@ import Clients from "./components/Clients";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import WhatsappButton from "./components/WhatsappButton";
+import CookieConsent from "./components/CookieConcent";
+import Modal from "./components/Modal";
 
 export default {
   name: "App",
@@ -35,6 +39,8 @@ export default {
     ContactForm,
     Footer,
     WhatsappButton,
+    CookieConsent,
+    Modal,
   },
 };
 </script>

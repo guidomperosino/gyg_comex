@@ -52,11 +52,7 @@
 </template>
 
 <script>
-export default {
-  data: () => ({
-    ServicesJSON: [{}],
-  }),
-};
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

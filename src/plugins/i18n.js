@@ -53,10 +53,10 @@ const messages = {
         buttonLink: "#servicios",
       },
       {
-        icon: "fa-calculator",
-        title: "Optimización de costos",
+        icon: "fa-truck",
+        title: "Logística",
         body:
-          "Asesoramos a nuestros clientes para poder obtener un trámite eficiente y competitivo buscando la mejor operatoria en trámites de comercio exterior.",
+          "Brindamos servicios integrales de Transporte, Almacenamiento y Movimiento de Cargas para la ejecución de toda la Cadena Logística.",
         buttonLink: "#portfolio",
       },
     ],
@@ -82,16 +82,16 @@ const messages = {
         imgAlt: "Asesoramiento imagen",
       },
       {
-        title: "Licencias no automáticas de importación (LNA)",
+        title: "Legales",
         body:
-          "Realizamos seguimiento constante para la obtención de licencias no automáticas de importación y manejamos una gran responsabilidad en el manejo de toda la documentación de nuestros clientes.",
+          "Asesoramos a nuestros clientes sobre Derecho Aduanero y Regimenes Especiales.",
         imgSrc: "assets/img/Asesoramiento3.jpg",
         imgAlt: "Asesoramiento imagen",
       },
       {
         title: "Análisis de resoluciones COMEX",
         body:
-          "Le aseguramos a nuestros clientes que podrán nacionalizar su mercadería asesorandolos en todos los pasos. Categorizamos y clasificamos toda su mercadería bajo nomenclatura de sistema armonizado.",
+          "Mantenemos a nuestros clientes actualizados frente a las distintas Normas y Regulaciones publicadas día a día.",
         imgSrc: "assets/img/Asesoramiento4.jpg",
         imgAlt: "Asesoramiento imagen",
       },
@@ -108,7 +108,7 @@ const messages = {
         id1: "servicio1",
         id2: "servicio1top",
         idLink: "#servicio1",
-        title: "Servicios Despachante de Aduana",
+        title: "Despachante de Aduana",
         bodyList: [
           "Tramitación del Formulario SIMI.",
           "Solicitud de LNA (Licencia No Automatica de Importación).",
@@ -116,7 +116,7 @@ const messages = {
           "Importación y Exportación (Oficialización de los permisos).",
           "Gestión de la documentación ante Aduana.",
           "Logística del transporte de la Mercaderia desde Aduana hasta la Puerta del cliente.",
-          "DJCP (Productos Textiles)",
+          "Tramites ante Organismos Públicos y Privados (DJCP, INAL, SENASA, etc).",
         ],
         imgSrc: "assets/img/Servicios1.jpg",
         imgAlt: "Imagen",
@@ -127,7 +127,7 @@ const messages = {
         id1: "servicio2",
         id2: "servicio2top",
         idLink: "#servicio2",
-        title: "Servicios Asesoramiento Integral de Comercio Exterior",
+        title: "Asesoramiento Integral de Comercio Exterior",
         bodyList: [
           "Alta de Importador / Exportador ante AFIP.",
           "Consulta de Estados de cada Operación en Página AFIP. ",
