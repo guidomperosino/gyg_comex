@@ -39,6 +39,13 @@ const messages = {
       "Brindamos asesoramiento integral de comercio exterior y gestionamos las operaciones aduaneras de importación y exportación. Enfocados en las necesidades particulares de cada cliente, con el fin de optimizar tiempos y reducir costos.",
     solutionsItems: [
       {
+        icon: "fa-box-open",
+        title: "Trading",
+        body:
+          "Somos una Empresa Importadora con más de 20 años de Experiencia ofrecemos a nuestros clientes el desarrollo de nuevos productos para lograr una Importación puerta a puerta.",
+        buttonLink: "#portfolio",
+      },
+      {
         icon: "fa-business-time",
         title: "Despachante de aduanas",
         body:
@@ -108,6 +115,26 @@ const messages = {
         id1: "servicio1",
         id2: "servicio1top",
         idLink: "#servicio1",
+        title: "Trading",
+        bodyList: [
+          "Item",
+          "Item",
+          "Item",
+          "Item",
+          "Item",
+          "Item",
+          "Item",
+          "Item",
+        ],
+        imgSrc: "assets/img/Servicios3.jpg",
+        imgAlt: "Imagen",
+        link: "#contact",
+        buttonText: "Consultar",
+      },
+      {
+        id1: "servicio2",
+        id2: "servicio2top",
+        idLink: "#servicio2",
         title: "Despachante de Aduana",
         bodyList: [
           "Tramitación del Formulario SIMI.",
@@ -124,9 +151,9 @@ const messages = {
         buttonText: "Consultar",
       },
       {
-        id1: "servicio2",
-        id2: "servicio2top",
-        idLink: "#servicio2",
+        id1: "servicio3",
+        id2: "servicio3top",
+        idLink: "#servicio3",
         title: "Asesoramiento Integral de Comercio Exterior",
         bodyList: [
           "Alta de Importador / Exportador ante AFIP.",

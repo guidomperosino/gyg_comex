@@ -11,7 +11,7 @@
       </div>
       <div class="row text-center">
         <div
-          class="col-md-4 pb-5 solutionContainer"
+          class="col-md-3 pb-5 solutionContainer"
           v-for="(solution, key) in $t('solutionsItems')"
           :key="key"
         >
@@ -22,7 +22,7 @@
           <h4 class="my-3">{{ solution.title }}</h4>
           <p class="text-muted">{{ solution.body }}</p>
           <a
-            class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+            class="btn btn-primary btn-xl text-uppercase js-scroll-trigger solutions-button"
             :href="solution.buttonLink"
             >{{ $t("contactoSolution.button") }}</a
           >
@@ -42,5 +42,9 @@
 }
 .solutionContainer a {
   margin-top: auto;
+}
+.solutions-button {
+  padding: 1.25rem 1.25rem;
+  font-size: 1rem;
 }
 </style>
