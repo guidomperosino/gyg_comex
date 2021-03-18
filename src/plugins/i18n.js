@@ -47,7 +47,7 @@ const messages = {
       },
       {
         icon: "fa-business-time",
-        title: "Despachante de aduanas",
+        title: "Despachante de aduana",
         body:
           "Como agente auxiliar del comercio y del servicio aduanero, nos encargamos de clasificar su mercadería e interpretar las distintas normas para gestionar sus operaciones de la mejor manera.",
         buttonLink: "#servicios",
@@ -233,7 +233,7 @@ const messages = {
     ],
     whatsapp: {
       link:
-        "https://wa.me/5491161161060/?text=Hola%2C%20estoy%20interesado%20en%20consultar%20sobre%20los%20servicios%20ofrecidos☺%EF%B8%8F",
+        "https://wa.me/5491160539654/?text=Hola%2C%20estoy%20interesado%20en%20consultar%20sobre%20los%20servicios%20ofrecidos☺%EF%B8%8F",
     },
     contactFormItems: {
       contactTitle: "Contacto",
