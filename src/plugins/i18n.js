@@ -233,7 +233,7 @@ const messages = {
     ],
     whatsapp: {
       link:
-        "https://wa.me/5491160539654/?text=Hola%2C%20estoy%20interesado%20en%20consultar%20sobre%20los%20servicios%20ofrecidos☺%EF%B8%8F",
+        "https://wa.me/5491132164426/?text=Hola%2C%20estoy%20interesado%20en%20consultar%20sobre%20los%20servicios%20ofrecidos☺%EF%B8%8F",
     },
     contactFormItems: {
       contactTitle: "Contacto",
@@ -242,9 +242,9 @@ const messages = {
     },
     footerItems: {
       adress: {
-        phone: "4331-1305",
+        phone: "+54-11-4331-1305",
         phoneLink:
-          "https://wa.me/5491161161060/?text=Hola%2C%20estoy%20interesado%20en%20consultar%20sobre%20los%20servicios%20ofrecidos☺%EF%B8%8F",
+          "https://wa.me/5491132164426/?text=Hola%2C%20estoy%20interesado%20en%20consultar%20sobre%20los%20servicios%20ofrecidos☺%EF%B8%8F",
         adress: "Moreno 584 4°B, CABA",
         adressLink: "https://goo.gl/maps/VpTEWtXHULw8Yoxy9",
         mail: "info@gyginternacional.com",
